@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: darkred;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: olive;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust for navbar height */
+    text-align: center;
+}
+
+#banner {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #f0e68c;
+}
+
+
+#clock {
+    border: 2px solid brown;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border-radius: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.6);
+    transition: all 0.3s ease;
+}

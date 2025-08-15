@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color:lightskyblue;
+}
+
+.container{
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+.button{
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    color:azure;
+    font-size: large;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    color: lightgreen;
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,87 @@
+// function sayMyName(){
+//     console.log("R");
+//     console.log("A");
+//     console.log("D");
+//     console.log("H");
+//     console.log("E");
+// }
+// //sayMyName()
+
+
+// // function addTwoNumbers(number1, number2){
+
+// //     console.log(number1 + number2);
+// // }
+
+// function addTwoNumbers(number1, number2){
+
+//     // let result = number1 + number2
+//     // return result
+//     return number1 + number2
+// }
+
+// const result = addTwoNumbers(3, 5)
+
+// // console.log("Result: ", result);
+
+
+// function loginUserMessage(username = "sam"){
+//     if(!username){
+//         console.log("PLease enter a username");
+//         return
+//     }
+//     return `${username} just logged in`
+// }
+
+// // console.log(loginUserMessage("hitesh"))
+// // console.log(loginUserMessage("hitesh"))
+
+
+// function calculateCartPrice(val1, val2, ...num1){     //...(rest operator) iska use bahut sare parameters ko likhne se bachne ke liye krte hai.
+//     return num1  //500, 2000
+// }
+
+// console.log(calculateCartPrice(200, 400, 500, 2000))
+
+// const user = {
+//     username: "hitesh",
+//     prices: 199
+// }
+
+// function handleObject(anyobject){
+//     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+// }
+
+// // handleObject(user)
+// handleObject({
+//     username: "sam",
+//     price: 399
+// })
+
+// const myNewArray = [200, 400, 100, 600]
+
+// function returnSecondValue(getArray){
+//     return getArray[1]
+// }
+
+// // console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([200, 400, 500, 1000]));
+
+//First class function:- functions ko values ki tarah treat karna
+//High order function:- esa function joki dusre function ko return kare ya apne parameter me ek aur function ko accept kare.
+
+
+//closures scoping:- ek esa function jo return kare ek aur function aur return hone wala function use karega parent function ka koi variable.
+// function abcd(){
+//     let a = 12;
+//     return function(){
+//         console.log(a);
+//     }
+// }
+
+//lexical scoping:- agr koi variable kisi function ke andr defined hai to wo un functions ke andr bhi defined hoga jo parent function ke andr defined hai.
+
+//IIfE(Immediately invoke function Expressions):-jo func immediately chalega aur ye itna hi likhne pr call ho jata hai. 
+(function(){
+
+})();
