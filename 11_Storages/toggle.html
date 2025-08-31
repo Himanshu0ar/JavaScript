@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Light / Dark Toggle (Simple)</title>
+  <link rel="stylesheet" href="toggle.css">
+</head>
+<body>
+  <button id="toggle-btn" aria-label="Toggle theme">🌞 Light</button>
+
+  <main class="container">
+    <h1>Light / Dark Demo</h1>
+    <p>Toggle the theme using the button. (JS se <code>body</code> par <code>.dark</code> lagana.)</p>
+  </main>
+
+  <!-- Tip for JS: 
+       const btn = document.getElementById('toggle-btn');
+       btn.onclick = () => {
+         document.body.classList.toggle('dark');
+         btn.textContent = document.body.classList.contains('dark') ? '🌙 Dark' : '🌞 Light';
+       };
+  -->
+  <script src="toggle.js"></script>
+</body>
+</html>
