@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Add User Page</title>
+    <link rel="stylesheet" href="AddUsers.css" />
+    <script src="AddUsers.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form class="user-form">
+            <h2>Add User</h2>
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="text" id="role" placeholder="Role" required />
+            <textarea id="bio" placeholder="Bio" required></textarea>
+            <input type="text" id="photo" placeholder="Photo URL" required />
+            <button type="submit">Submit</button>
+        </form>
+        <div class="user-cards">
+        </div>
+    </div>
+</body>
+</html>
